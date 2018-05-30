@@ -1,0 +1,25 @@
+-update the fonts, don't use default
+
+mvp? -remove non-link underlines.  Find a better way to call attention
+    color, bold, italics, invert > blue font w/ white background
+
+mvp -update link colors 
+
+mvp stl -gen pass/phrase pages need more margin between section titles and end 
+of check/radio buttons
+
+-dont' forget to remove the console.logs from stl
+
+mvp stl-replace alert and radio warnings
+
+-better style on modals in stl
+
+
+
+===================
+nice to haves
+
+-try to make the modal close w/o clicking the X
+    Will need to setup jq listener to listen for clicking outside
+    of the box then use jq to fire off the click even on the X
+
