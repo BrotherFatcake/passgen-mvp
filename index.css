@@ -5,6 +5,7 @@
 }
 
 body  {
+  font-family: 'Ubuntu Mono', monospace;
   color: white;
 }
 
@@ -128,6 +129,11 @@ a:link, a:visited  {
  a:hover  {
   color: lightslategray;
   background-color: aliceblue;
+}
+
+input:focus, button:focus, a:focus, img:focus   {
+  outline: 2px dashed #06ff27;
+  -moz-appearance: none !important;
 }
 
 .pageModal { /*https://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/*/
