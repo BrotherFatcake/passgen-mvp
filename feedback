@@ -1,14 +1,20 @@
+- Added media queries for all standard devices:
+    Smart phone portrait
+    Smart phone landscape
+    Tablet portrait
+    Tablet landscape
+ 
+ -Written CSS rules for each media query (screen size) that optimize:
+    Text readability (e.g. font sizes easy to read without having to zoom in/out).
+    Image to screen ratio (e.g. image width/height defined by percentage of screen size).
+    Usability of UI (e.g. size and vertical spacing for clickable elements).
+
+
+
+
+nice to haves===================
+
 -try to condense pass/phrase flow
-
--dont' forget to remove the console.logs from stl
-
-
-
-
-
-
-===================
-nice to haves
 
 -try to make the modal close w/o clicking the X
     Will need to setup jq listener to listen for clicking outside
@@ -35,3 +41,5 @@ done stl-replace alert and radio warnings
 done -make modals fit on mobile!!
 
 done -better style on modals in stl
+
+done -dont' forget to remove the console.logs from stl
