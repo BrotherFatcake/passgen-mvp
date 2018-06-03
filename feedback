@@ -1,4 +1,35 @@
-- Added media queries for all standard devices:
+
+
+
+
+DONE===================
+
+-aria-live
+
+
+-fix show pass checkbox 
+
+-change check pass field to require min 1 char
+
+
+Check Password Page:
+*It will check a password even if you didn't type anything
+
+
+
+-change checkbox and radio button images
+
+
+
+-find more regular term for hash in how we do it modal
+
+*Is hashing a commonly known term among the crowd that needs password help? If you're going to be scored on keeping a specific target audience in mind, 
+maybe define hashing or use a more general term.  
+
+
+
+- Added media queries for all standard devices: 
+    https://responsivedesign.is/develop/browser-feature-support/media-queries-for-common-device-breakpoints/
     Smart phone portrait
     Smart phone landscape
     Tablet portrait
@@ -9,18 +40,74 @@
     Image to screen ratio (e.g. image width/height defined by percentage of screen size).
     Usability of UI (e.g. size and vertical spacing for clickable elements).
 
+-fix favicon
+
+Professor Farnsworth's Good News! Page:
+*More comma fun. I would add in commas in the middle paragraph to read "You can continue to use this password, or, if you would like, you can generate a new one." I think both parts of the sentence are independent and there are natural pauses in there. If you don't like all the commas, you could shorten it to something like "You can continue to use this password or generate a new one."
+*Chrome displays a 3rd paragraph that says click below to check another or generate... but Edge doesn't have this sentence. 
 
 
 
-nice to haves===================
+Warning! page:
+*Last sentence of the middle paragraph needs a period. 
+*Chrome displays a 3rd paragraph that says click below to check another or generate... but Edge doesn't have this sentence. 
 
--try to condense pass/phrase flow
+Create Password/Passphrase Options Pages:
+*Edge has asterisks next to some of the option headers and then "*=Required" at the bottom. Chrome does not. I think I prefer the asterisks.
+*The option headers don't all line up with each other in Chrome. The header for the first option is one line higher than the other(s) on both pages.
 
--try to make the modal close w/o clicking the X
-    Will need to setup jq listener to listen for clicking outside
-    of the box then use jq to fire off the click even on the X
 
-DONE===================
+*Because I love commas, I would add a comma in the 2nd sentence of the 2nd paragraph to read "Once you determine the type, you select..." and in the next 
+sentence I would say "They, in return, generate..." because in return put in as a adverbial phrase so it has to be separated by commas (yes, I had to look 
+that up). I would also add a comma the last sentence between "client" and "we" but I'm less confident about that one.
+
+*"Recieved" in the last sentence should be "Received". This is fine in Edge. 
+
+*I like that you run the generated password through the password checker. That's a nice touch. 
+
+*In the first paragraph (Chrome), the website is first underlined and between tick marks and then neither the second time. This 2nd mention of the pwned 
+website is also not a hyperlink in Chrome, but it is in Edge. My preference would be underlined since it can't be blue but no tick marks. 
+
+*I would maybe reword the last sentence of the first paragraph to "From there, we do a comparison and inform you if...". Again, I would question whether 
+an average user would know what the client side is. Client is mentioned again in the last sentence if you decide to get rid of the first one. 
+
+
+Main Page:
+*The verbiage for your first link is written in Yodish. Change "How do we it?" to "How do we do it?" (This is fine in Edge)
+*In the "Generate a new Password" button, I would capitalize "new". 
+     -I initially thought maybe it should just say "Generate New Password" to be more consistent with the other button but on the phone, where they're on top of each other, it looks better that the length of text matches. Edit: I just checked on the phone again and it looks like you changed the button verbiage to match the shorter verbiage that I saw in Edge.
+*I like the verbiage for the buttons in Chrome better than in Edge. 
+
+-update text to more descriptive for what function being used > dynamically update text as changing funcitons
+    check - use check details
+    pass - pass info
+    phrase - phrase info
+
+    https://specopssoft.com/blog/3-passphrase-best-practices/
+
+
+- add optional tag on pass prase check boxes and required for everything else
+
+
+-fix create my passphrase button it is no longer centered
+
+
+-try to adjust secure to make it bolder to stand out
+
+-make haveibeen url that is not a link a link on how we modal
+
+-front page talks about creating password or pass phrase but there is no option to generate phrase on first page
+
+
+- swap these lines
+    Click below to check another password or generate a new one!
+
+     This is the password that was generated: 
+        and
+     This is the pass phrase that was generated: 
+
+
+-remove image on mobile devices after first page
 
 
 done -gen pass/phrase pages need more margin between section titles and end 
@@ -43,3 +130,18 @@ done -make modals fit on mobile!!
 done -better style on modals in stl
 
 done -dont' forget to remove the console.logs from stl
+
+
+
+
+
+nice to haves===================
+
+
+-special char passwords need more space between wrapped rows
+
+-try to condense pass/phrase flow
+
+-try to make the modal close w/o clicking the X
+    Will need to setup jq listener to listen for clicking outside
+    of the box then use jq to fire off the click even on the X
